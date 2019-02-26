@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0">
+
+    <!-- Site Metas -->
+    <title>菜品详情</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- color -->
+    <link id="changeable-colors" rel="stylesheet" href="css/colors/orange.css" />
+
+    <!-- Modernizer -->
+    <script src="js/modernizer.js"></script>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+   <div id="loader">
+        <div id="status"></div>
+    </div>
+    
+	<!-- end site-header -->
+	
+    <div id="banner" class="banner full-screen-mode parallax">
+        <div class="container pr">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="banner-static">
+                    <div class="banner-text">
+                        <div class="banner-cell">
+                            <h1 style="color:#000">逛吃逛吃:<span class="typer" id="some-id" data-delay="200" data-delim=":" data-words="对于吃货而言，没有什么事情是一顿肉解决不了的。如果有，就两顿！" data-colors="red"></span><span class="cursor" data-cursorDisplay="_" data-owner="some-id"></span></h1>
+                            <h2>上帝给予我吃货的属性，却没有给我土豪的身份。</h2>
+                            <!-- <h3>&&nbsp;&&nbsp;美食&&爱情</h3> -->
+                            
+
+                            <div class="book-btn">
+                                <!-- <a href="#reservation" class="table-btn hvr-underline-from-center">Book my Table</a> -->
+                            </div>
+                            <a href="#about">
+                                <div class="mouse"></div>
+                            </a>
+                        </div>
+                        <!-- end banner-cell -->
+                    </div>
+                    <!-- end banner-text -->
+                </div>
+                <!-- end banner-static -->
+            </div>
+            <!-- end col -->
+        </div>
+        <!-- end container -->
+    </div>
+    <!-- end banner -->
+
+
+
+    <div class="special-menu pad-top-100 parallax" id="menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                        <h2 class="block-title color-white text-center"> This website 热推 ！！！ </h2>
+                        <h5 class="title-caption text-center"> 欢迎来到地表集团主题美食餐厅 </h5>
+                    </div>
+                    <div class="special-box">
+                        <div id="owl-demo">
+                            <div class="item item-type-zoom">
+                                <a href="#" class="item-hover">
+                                    <div class="item-info">
+                                        <div class="headline">
+                                            水煮肉片
+                                            <div class="line"></div>
+                                            <div class="dit-line">欢迎品尝欢迎品尝欢迎品尝欢迎品尝欢迎品尝欢迎品尝欢迎品尝</div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="item-img">
+                                    <img src="images/川菜--menu-a.jpg" alt="sp-menu">
+                                </div>
+                            </div>
+                            <div class="item item-type-zoom">
+                                <a href="#" class="item-hover">
+                                    <div class="item-info">
+                                        <div class="headline">
+                                            川味粉蒸排骨
+                                            <div class="line"></div>
+                                            <div class="dit-line">川味粉蒸排骨是一道由排骨、郫县豆瓣酱等食材制成的美食。</div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="item-img">
+                                    <img src="images/川菜-menu-b.jpg" alt="sp-menu">
+                                </div>
+                            </div>
+                            <div class="item item-type-zoom">
+                                <a href="#" class="item-hover">
+                                    <div class="item-info">
+                                        <div class="headline">
+                                            无锡排骨
+                                            <div class="line"></div>
+                                            <div class="dit-line">无锡排骨是江苏省无锡地区特色传统名菜之一，也是具有地方风味，名闻中外的旅游食品。无锡排骨，传统名称叫“无锡肉骨头”。无锡排骨（肉骨头）兴起于清朝的光绪年间（1872-1909年）。20世纪80年代，为了方便作为旅游食品来推广而改名“无锡排骨”。</div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="item-img">
+                                    <img src="images/苏菜-无锡排骨.jpg" alt="sp-menu">
+                                </div>
+                            </div>
+                            <div class="item item-type-zoom">
+                                <a href="#" class="item-hover">
+                                    <div class="item-info">
+                                        <div class="headline">
+                                            孔雀开屏鱼
+                                            <div class="line"></div>
+                                            <div class="dit-line">孔雀开屏鱼是一道特色传统名菜，属鲁菜系，此菜是春节节日年菜，一有喜庆祥和的意头，二鱼肉经清蒸后，不仅保持了原汁原味，还十分鲜美嫩滑。</div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="item-img">
+                                    <img src="images/湘菜-孔雀开屏鱼.jpg" alt="sp-menu">
+                                </div>
+                            </div>
+                            <div class="item item-type-zoom">
+                                <a href="#" class="item-hover">
+                                    <div class="item-info">
+                                        <div class="headline">
+                                            梅菜扣肉
+                                            <div class="line"></div>
+                                            <div class="dit-line">通常是将五花肉上汤锅煮透，加老抽，油炸上色，再切成肉片。之后加葱、姜等调料炒片刻，再下汤用小火焖烂，五花肉盛入碗里，上铺梅菜段，倒入原汤蒸透。走菜时，把肉反扣在盘中。成菜后，肉烂味香，吃起来咸中略带甜味，肥而不腻。 [2] </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="item-img">
+                                    <img src="images/粤菜-梅菜扣肉.jpg" alt="sp-menu">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end special-box -->
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </div>
+    <!-- end special-menu -->
+
+
+
+    <div id="our_team" class="team-main pad-top-100 pad-bottom-100 parallax">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                        <h2 class="block-title text-center">
+						This website 热推 ！！！	
+					</h2>
+                        <p class="title-caption text-center"></p>
+                    </div>
+                    <div class="team-box">
+
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6">
+                                <div class="sf-team">
+                                    <div class="thumb">
+                                        <a href="#"><img src="images/3c1.jpg" alt=""></a>
+                                    </div>
+                                    <div class="text-col">
+                                        <h3>&茶香脆皮鸡</h3>
+                                        <p>茶香脆皮炸鸡是一道广东的地方传统名菜，属于粤菜。以鸡肉为主要食材的私家菜，柴鸡皮大红，虾片洁白，皮脆，肉鲜，骨香，口味咸鲜，色泽红亮，皮酥肉嫩，味道鲜美。营养价值丰富。
+                                        </p>
+                                        <ul class="team-social">
+                                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end col -->
+                            <div class="col-md-4 col-sm-6">
+                                <div class="sf-team">
+                                    <div class="thumb">
+                                        <a href="#"><img src="images/3c2.jpg" alt=""></a>
+                                    </div>
+                                    <div class="text-col">
+                                        <h3>&酱汁虾</h3>
+                                        <p>外型美观，味道清香，软嫩适口。虾酱汁是一道美食，材料：幼滑虾酱80克，辣椒酱5克，花生酱15克，蒜蓉、葱蓉各20克，生抽15克，鸡汤80克，白糖、盐 各适量。    
+</p>
+                                        <ul class="team-social">
+                                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end col -->
+                            <div class="col-md-4 col-sm-6">
+                                <div class="sf-team">
+                                    <div class="thumb">
+                                        <a href="#"><img src="images/3c3.jpg" alt=""></a>
+                                    </div>
+                                    <div class="text-col">
+                                        <h3>&荷花鸡</h3>
+                                        <p>荷花出于污泥而不染，人所共赏。刚刚盛开的荷花不仅好看，还很清香好吃。素传为历史上铁面无私的包公喜爱的“四莲菜”，沿传至今，已成为传统的合肥名菜。</p>
+                                        <ul class="team-social">
+                                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                    </div>
+                    <!-- end team-box -->
+
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </div>
+    <!-- end team-main -->
+
+    <div id="gallery" class="gallery-main pad-top-100 pad-bottom-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                        <h2 class="block-title text-center">
+						舌尖上的美食
+					</h2>
+                        <p class="title-caption text-center">这里有全球都吃不到看不到的美食，你还在等什么抓紧加入我们一起品尝吧 </p>
+                    </div>
+                    <div class="gal-container clearfix">
+                        <div class="col-md-8 col-sm-12 co-xs-12 gal-item">
+                            <div class="box">
+                                <a href="#" data-toggle="modal" data-target="#1">
+                                    <img src="images/gallery_01.jpg" alt="" />
+                                </a>
+                                <div class="modal fade" id="1" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="modal-body">
+                                                <img src="images/gallery_01.jpg" alt="" />
+                                            </div>
+                                            <div class="col-md-12 description">
+                                                <h4>当你看到这个图片的时候想必你已经很饿了！</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                            <div class="box">
+                                <a href="#" data-toggle="modal" data-target="#2">
+                                    <img src="images/gallery_02.jpg" alt="" />
+                                </a>
+                                <div class="modal fade" id="2" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="modal-body">
+                                                <img src="images/gallery_02.jpg" alt="" />
+                                            </div>
+                                            <div class="col-md-12 description">
+                                                <h4>当你看到这个图片的时候想必你已经很饿了！</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                            <div class="box">
+                                <a href="#" data-toggle="modal" data-target="#3">
+                                    <img src="images/gallery_03.jpg" alt="" />
+                                </a>
+                                <div class="modal fade" id="3" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="modal-body">
+                                                <img src="images/gallery_03.jpg" alt="" />
+                                            </div>
+                                            <div class="col-md-12 description">
+                                                <h4>当你看到这个图片的时候想必你已经很饿了！</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                            <div class="box">
+                                <a href="#" data-toggle="modal" data-target="#4">
+                                    <img src="images/gallery_04.jpg" alt="" />
+                                </a>
+                                <div class="modal fade" id="4" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="modal-body">
+                                                <img src="images/gallery_04.jpg" alt="" />
+                                            </div>
+                                            <div class="col-md-12 description">
+                                                <h4>当你看到这个图片的时候想必你已经很饿了！</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                            <div class="box">
+                                <a href="#" data-toggle="modal" data-target="#5">
+                                    <img src="images/gallery_05.jpg" alt="" />
+                                </a>
+                                <div class="modal fade" id="5" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="modal-body">
+                                                <img src="images/gallery_05.jpg" alt="" />
+                                            </div>
+                                            <div class="col-md-12 description">
+                                                <h4>当你看到这个图片的时候想必你已经很饿了！</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                            <div class="box">
+                                <a href="#" data-toggle="modal" data-target="#9">
+                                    <img src="images/gallery_06.jpg" alt="" />
+                                </a>
+                                <div class="modal fade" id="9" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="modal-body">
+                                                <img src="images/gallery_06.jpg" alt="" />
+                                            </div>
+                                            <div class="col-md-12 description">
+                                                <h4>当你看到这个图片的时候想必你已经很饿了！</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8 col-sm-12 co-xs-12 gal-item">
+                            <div class="box">
+                                <a href="#" data-toggle="modal" data-target="#10">
+                                    <img src="images/gallery_07.jpg" alt="" />
+                                </a>
+                                <div class="modal fade" id="10" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="modal-body">
+                                                <img src="images/gallery_07.jpg" alt="" />
+                                            </div>
+                                            <div class="col-md-12 description">
+                                                <h4>当你看到这个图片的时候想必你已经很饿了！</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                            <div class="box">
+                                <a href="#" data-toggle="modal" data-target="#11">
+                                    <img src="images/gallery_08.jpg" alt="" />
+                                </a>
+                                <div class="modal fade" id="11" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="modal-body">
+                                                <img src="images/gallery_08.jpg" alt="" />
+                                            </div>
+                                            <div class="col-md-12 description">
+                                                <h4>当你看到这个图片的时候想必你已经很饿了！</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                            <div class="box">
+                                <a href="#" data-toggle="modal" data-target="#12">
+                                    <img src="images/gallery_09.jpg" alt="" />
+                                </a>
+                                <div class="modal fade" id="12" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="modal-body">
+                                                <img src="images/gallery_09.jpg" alt="" />
+                                            </div>
+                                            <div class="col-md-12 description">
+                                                <h4>当你看到这个图片的时候想必你已经很饿了！</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                            <div class="box">
+                                <a href="#" data-toggle="modal" data-target="#13">
+                                    <img src="images/gallery_10.jpg" alt="" />
+                                </a>
+                                <div class="modal fade" id="13" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="modal-body">
+                                                <img src="images/gallery_10.jpg" alt="" />
+                                            </div>
+                                            <div class="col-md-12 description">
+                                                <h4>当你看到这个图片的时候想必你已经很饿了！</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end gal-container -->
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </div>
+    <!-- end gallery-main -->
+
+    <div id="blog" class="blog-main pad-top-100 pad-bottom-100 parallax">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h2 class="block-title text-center">
+					吃货心得	
+				</h2>
+                    <div class="blog-box clearfix">
+                        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="blog-block">
+                                    <div class="blog-img-box">
+                                        <img src="images/u=982312227,1061079507&fm=26&gp=0.jpg" alt="" />
+                                        <div class="overlay">
+                                            <!-- <a href=""><i class="fa fa-link" aria-hidden="true"></i></a> -->
+                                        </div>
+                                    </div>
+                                    <div class="blog-dit">
+                                        <p><span>成立时间：10月1日</span></p>
+                                        <h2>真正的吃货敢于直面粗壮的大腿，敢于挑战隆起的小腹。</h2>
+                                        <h5>地表强大的团队</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="blog-block">
+                                    <div class="blog-img-box">
+                                        <img src="images/u=248117308,3351518669&fm=26&gp=0.jpg" alt="" />
+                                        <div class="overlay">
+                                            <!-- <a href=""><i class="fa fa-link" aria-hidden="true"></i></a> -->
+                                        </div>
+                                    </div>
+                                    <div class="blog-dit">
+                                        <p><span>成立时间：10月1日</span></p>
+                                        <h2> 对吃货来说，这世上唯一不能吃的就是亏。</h2>
+                                        <h5>地表强大的团队</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="blog-block">
+                                    <div class="blog-img-box">
+                                        <img src="images/u=232165825,307410439&fm=26&gp=0.jpg" alt="" />
+                                        <div class="overlay">
+                                            <!-- <h3 style="color: red">是不是被我迷到了！</h3> -->
+                                            <!-- <a href=""><i class="fa fa-link" aria-hidden="true"></i></a> -->
+                                        </div>
+                                    </div>
+                                    <div class="blog-dit">
+                                        <p><span>成立时间：10月1日</span></p>
+                                        <h2>吃货就是别人吃俩口就饱了，你是吃饱了还能吃两口。</h2>
+                                        <h5>地表强大的团队</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="blog-block">
+                                    <div class="blog-img-box">
+                                        <img src="images/u=3588464993,4240956261&fm=26&gp=0.jpg" alt="" />
+                                        <div class="overlay">
+                                            <!-- <h3 style="color: red">是不是被我迷到了！</h3> -->
+                                            <!-- <a href=""><i class="fa fa-link" aria-hidden="true"></i></a> -->
+                                        </div>
+                                    </div>
+                                    <div class="blog-dit">
+                                        <p><span>成立时间：10月1日</span></p>
+                                        <h2>吃，我所欲也;瘦，亦亦我所欲也....两者不可得兼，我勒个去也。</h2>
+                                        <h5>地表强大的团队</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                    </div>
+                    <!-- end blog-box -->
+<!-- 
+                    <div class="blog-btn-v">
+                        <a class="hvr-underline-from-center" href="#">View the Blog</a>
+                    </div>
+ -->
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </div>
+    <!-- end blog-main -->
+
+
+
+
+            <!-- end container -->
+            <div id="copyright" class="copyright-main">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <h6 class="copy-title"> Copyright &copy; 2018 Food Funday .More Templates <a href="#" target="_blank" title="模板之家">宇宙最强战队</a> - Collect from <a href="#" title="网页模板" target="_blank"></a> </h6>
+                        </div>
+                    </div>
+                    <!-- end row -->
+                </div>
+                <!-- end container -->
+            </div>
+            <!-- end copyright-main -->
+        </div>
+        <!-- end footer-box -->
+    </div>
+    <!-- end footer-main -->
+
+    <a href="#" class="scrollup" style="display: none;">Scroll</a>
+
+    <section id="color-panel" class="close-color-panel">
+        <a class="panel-button gray2"><i class="fa fa-cog fa-spin fa-2x"></i></a>
+        <!-- Colors -->
+        <div class="segment">
+            <h4 class="gray2 normal no-padding">Color Scheme</h4>
+            <a title="orange" class="switcher orange-bg"></a>
+            <a title="strong-blue" class="switcher strong-blue-bg"></a>
+            <a title="moderate-green" class="switcher moderate-green-bg"></a>
+            <a title="vivid-yellow" class="switcher vivid-yellow-bg"></a>
+        </div>
+    </section>
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+</body>
+<audio src="G-Dragon金润雅-Missing You.mp3" autoplay="autoplay" id="musicPlayer"></audio>
+</html>

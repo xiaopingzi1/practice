@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="keywords" content=""/>
+  <link rel="stylesheet" href="css/reset.css"/>
+  <link rel="stylesheet" href="css/star.css"/>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
+  <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+  <style>
+
+    .services {
+      background: url(images/关于我们/beijing.png) no-repeat;
+      background-size: 100% 710px;
+    }
+
+    marquee img {
+      width: 50px;
+      height: 60px;
+    }
+
+    .out img {
+      width: 100px;
+      height: 100px;
+      margin-top: 800px;
+    }
+
+    .huochai {
+      width: 500px;
+      height: 300px;
+      float: left;
+      margin-top: -160px;
+      margin-left: 300px;
+    }
+
+    .dan {
+      color: gold;
+      margin: 0 auto;
+      width: 1110px;
+      /* background: pink; */
+    }
+
+    .dan span {
+      font-size: 30px;
+    }
+
+    .box {
+      position: fixed;
+      left: 0;
+      top: 0px;
+      width: 200px;
+      height: 1000px;
+    }
+
+    .box img {
+      width: 200px;
+      height: 200px;
+      animation: rotate 1s linear infinite;
+      margin-top: 900px;
+    }
+
+    .lpl {
+      position: fixed;
+      right: 0;
+      bottom: 0px;
+      width: 200px;
+      height: 1000px;
+    }
+
+    .lpl img {
+      width: 200px;
+      height: 200px;
+      animation: rotate 1s linear infinite;
+      margin-top: 900px;
+    }
+
+    @keyframes rotate {
+      from {
+        transform: rotateZ(0deg);
+      }
+
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    .zhen {
+      width: 340px;
+      height: 140px;
+      float: left;
+      margin-left: 95px;
+      margin-top: 5px;
+    }
+
+    .zhen img {
+      width: 140px;
+      height: 140px;
+      float: left;
+    }
+
+    .zhen span {
+      float: right;
+      height: 140px;
+      width: 150px;
+      font-size: 18px;
+      color: red;
+    }
+  </style>
+</head>
+
+<body style="background-color: rgb(255,255,235)">
+<div class="siteNav clearfix">
+  <div class="w">
+    <!--logo左边-->
+    <ul id="ul1" class="ul1">
+      <li class="menu-item">
+        <a href="index.html">首页</a>
+      </li>
+      <li class="menu-item">
+        <a href="#snake">零食小吃</a>
+        <ul class="sub-menu">
+          <li><a href="#">保定锅贴饺子</a></li>
+          <li><a href="#">山西刀削面</a></li>
+          <li><a href="#">福建鱼丸汤</a></li>
+        </ul>
+      </li>
+      <li class="menu-item">
+        <a href="#eightFood">八大菜系</a>
+        <ul class="sub-menu">
+          <li><a href="#">川菜/鲁菜/粤菜</a></li>
+          <li><a href="#">苏菜/浙菜/闽菜</a></li>
+          <li><a href="#">湘菜/徽菜</a></li>
+        </ul>
+      </li>
+    </ul>
+    <div class="pic"><img src="images/logo/Logo.png" alt=""/></div>
+    <!--logo右边-->
+    <ul id="ul2" class="ul2">
+      <li class="menu-item">
+        <a href="#travel">景点热推</a>
+        <ul class="sub-menu">
+          <li><a href="#">北京/天津</a></li>
+          <li><a href="#">重庆/上海</a></li>
+          <li><a href="#">More</a></li>
+        </ul>
+      </li>
+      <li class="menu-item"><a href="aboutus.html">关于我们</a></li>
+      <li class="menu-item"><a href="contact.html">联系我们</a></li>
+    </ul>
+  </div>
+</div>
+<!-- services -->
+<div class="services" id="services">
+  <div class="container">
+    <!-- 标题 -->
+    <div class="agile-heading">
+      <h3 class="w3l-title">
+        <marquee behavior=alternate scrollamount=15>
+          实力团队
+          <img src="images/关于我们/dong.gif" alt="">
+          不接受批评
+        </marquee>
+      </h3>
+    </div>
+    <!-- 上边一排 -->
+    <marquee behavior="" direction=""></marquee>
+    <div class="wthree-services-grids">
+      <!-- 第一个板块 -->
+      <div class="col-sm-3 wthree-services">
+        <div class="wthree-services-grid">
+          <div class="wthree-services-info">
+            <img src="images/关于我们/2.jpg" alt="">
+          </div>
+          <div class="wthree-services-captn">
+            <h4>
+              <marquee behavior=alternate scrollamount=10>1</marquee>
+            </h4>
+            <p>1</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3 wthree-services">
+        <div class="wthree-services-grid">
+          <!-- 默认样式 -->
+          <div class="wthree-services-info">
+            <!-- <h4>BEST COOKS</h4>
+          <div class="w3ls-border"> </div> -->
+            <img src="images/关于我们/1.jpg" alt="">
+          </div>
+          <!-- 鼠标放上去的样式 -->
+          <div class="wthree-services-captn">
+            <h4>
+              <marquee behavior=alternate scrollamount=10>1</marquee>
+            </h4>
+            <p>猫咪1</p>
+          </div>
+        </div>
+      </div>
+      <!-- 板块二 -->
+      <div class="col-sm-3 wthree-services">
+        <div class="wthree-services-grid">
+          <div class="wthree-services-info">
+            <!-- <h4>FREE PARKING</h4>
+            <div class="w3ls-border"> </div> -->
+            <img src="images/关于我们/5.jpg" alt="">
+          </div>
+          <div class="wthree-services-captn">
+            <h4>
+              <marquee behavior=alternate scrollamount=10>1</marquee>
+            </h4>
+            <p>1</p>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- 板块三 -->
+      <div class="col-sm-3 wthree-services">
+        <div class="wthree-services-grid">
+          <div class="wthree-services-info">
+            <img src="images/关于我们/6.jpg" alt="">
+          </div>
+          <div class="wthree-services-captn">
+            <h4>
+              <marquee behavior=alternate scrollamount=10>2</marquee>
+            </h4>
+            <p>2</p>
+          </div>
+        </div>
+      </div>
+      <!-- 板块四 -->
+      <div class="col-sm-3 wthree-services">
+        <div class="wthree-services-grid">
+          <div class="wthree-services-info">
+            <img src="images/关于我们/5.jpg" alt="">
+          </div>
+          <div class="wthree-services-captn">
+            <h4>
+              <marquee behavior=alternate scrollamount=10>2</marquee>
+            </h4>
+            <p>2</p>
+          </div>
+        </div>
+      </div>
+      <!-- 板块五 -->
+
+      <div class="clearfix"></div>
+    </div>
+    <!-- 第二排 -->
+    <div class="wthree-services-grids services-grids1">
+      <!-- 板块六 -->
+      <div class="col-sm-3 wthree-services">
+        <div class="wthree-services-grid">
+          <div class="wthree-services-info">
+            <img src="images/关于我们/4.jpg" alt="">
+          </div>
+          <div class="wthree-services-captn">
+            <h4>
+              <marquee behavior=alternate scrollamount=10>3</marquee>
+            </h4>
+            <p>3</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3 wthree-services">
+        <div class="wthree-services-grid">
+          <div class="wthree-services-info">
+            <img src="images/关于我们/3.jpg" alt="">
+          </div>
+          <div class="wthree-services-captn">
+            <h4>
+              <marquee behavior=alternate scrollamount=10>4</marquee>
+            </h4>
+            <p>4</p>
+          </div>
+        </div>
+      </div>
+      <!-- 板快七 -->
+      <div class="col-sm-3 wthree-services">
+        <div class="wthree-services-grid">
+          <div class="wthree-services-info">
+            <img src="images/关于我们/2.jpg" alt="">
+          </div>
+          <div class="wthree-services-captn">
+            <h4>
+              <marquee behavior=alternate scrollamount=10>5</marquee>
+            </h4>
+            <p>5</p>
+          </div>
+        </div>
+      </div>
+      <!-- 板快八 -->
+      <div class="col-sm-3 wthree-services">
+        <div class="wthree-services-grid">
+          <div class="wthree-services-info">
+            <img src="images/关于我们/1.jpg" alt="">
+          </div>
+          <div class="wthree-services-captn">
+            <h4>
+              <marquee behavior=alternate scrollamount=10>6</marquee>
+            </h4>
+            <p> 6</p>
+          </div>
+        </div>
+      </div>
+      <!-- 板块九 -->
+
+      <!-- 板块十 -->
+
+      <div class="col-sm-3 wthree-services">
+        <div class="wthree-services-grid">
+          <div class="wthree-services-info">
+            <img src="images/关于我们/momo.gif" alt="">
+          </div>
+          <div class="wthree-services-captn">
+            <h4>
+              <marquee behavior=alternate scrollamount=10>2</marquee>
+              <!-- 失踪人口 -->
+            </h4>
+            <p>2</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="dan">
+  <marquee behavior=alternate scrollamount=13>
+			<span id="skt">团队大片 欣赏不谢
+				<img src="images/关于我们/xin.gif" alt="">
+				别忘打分</span>
+  </marquee>
+</div>
+<div id="starRating">
+  <p class="photo">
+    <span><i class="high"></i><i class="nohigh"></i></span>
+    <span><i class="high"></i><i class="nohigh"></i></span>
+    <span><i class="high"></i><i class="nohigh"></i></span>
+    <span><i class="high"></i><i class="nohigh"></i></span>
+    <span><i class="high"></i><i class="nohigh"></i></span>
+  </p>
+  <p class="starNum">0.0分</p>
+  <div class="bottoms">
+    <a class="garyBtn cancleStar">取消评分</a><a class="blueBtn sureStar">确认</a>
+  </div>
+</div>
+<div class="huochai">
+  <img src="images/关于我们/dajia.jpg" alt="">
+</div>
+
+
+<div class="box">
+  <marquee scrollamount=30 direction=down>
+    <img src="images/关于我们/fengche.png" alt="">
+  </marquee>
+</div>
+<div class="lpl">
+  <marquee scrollamount=30 direction=up>
+    <img src="images/关于我们/fengche.png" alt="">
+  </marquee>
+</div>
+
+<div class="zhen">
+  <img src="images/关于我们/saoma.png" alt="">
+  <span>
+			<marquee scrollamount=15 direction=up height='150'>
+				扫一下
+				有惊喜
+			</marquee>
+		</span>
+</div>
+
+
+<script src="js/vendor/jquery-1.12.4.js"></script>
+<script src="js/guanyuwomen.js"></script>
+
+
+</body>
+
+</html>

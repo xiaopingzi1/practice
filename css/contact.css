@@ -1,0 +1,230 @@
+/* 联系我们部分 */
+* {
+  padding: 0;
+  margin: 0;
+}
+a {
+  color:#666;
+  text-decoration: none;
+}
+body {
+  min-width: 1200px;
+	background-color: rgb(255,255,232);
+}
+.clearfix:after,.clearfix:before {
+  display: table;
+  content: "";
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  *zoom:1;
+}
+.w {
+  width: 1200px;
+  margin: 0 auto;
+}
+/* 头部 */
+/* .head {
+	width: 100%;
+	height: 100px;
+	background-color: #aaa;
+} */
+ul, ol {
+	list-style: none; /*清除列表风格*/
+  }
+/* 顶部图片部分 */
+.top_pic {
+	width: 100%;
+	height: 500px;
+	/* height: 300px; */
+	background: url('../images/分页-练习我们/bg.png') ;
+	background-size: 100%   600px ;
+	padding-top: 100px;
+	position: relative;
+}
+.top_pic img {
+	height: 200px;
+	width: 160px;
+	box-shadow: 5px 5px 20px gray;
+	transition:  all 1s linear;
+	float: left;
+	display: none;
+	position: absolute;
+	top: 80px;
+}
+.top_pic img:nth-child(1) {
+	transform: rotate(5deg);
+	left: 100px;
+}
+.top_pic img:nth-child(2) {
+	transform: rotate(-3deg);
+	left: 360px;
+}
+.top_pic img:nth-child(3) {
+	transform: rotate(7deg);
+	left: 620px;
+}
+.top_pic img:nth-child(4) {
+	transform: rotate(-5deg);
+	left: 880px;
+}
+.top_pic img:nth-child(5) {
+	transform: rotate(3deg);
+	left: 1100px;
+}
+.top_pic img:nth-child(6) {
+	transform: rotate(-2deg);
+	top: 360px;
+	left: 100px;
+}
+.top_pic img:nth-child(7) {
+	transform: rotate(8deg);
+	left: 360px;
+	top: 360px;
+}
+.top_pic img:nth-child(8) {
+	transform: rotate(-6deg);
+	left: 620px;
+	top: 360px;
+}
+.top_pic img:nth-child(9) {
+	transform: rotate(8deg);
+	left: 880px;
+	top: 360px;
+}
+.top_pic img:nth-child(10) {
+	transform: rotate(-3deg);
+	left: 1100px;
+	top: 360px;
+}
+.top_pic img:nth-child(odd):hover {
+	transform: scale(1.3) skew(5deg,-5deg);
+}
+.top_pic img:nth-child(even):hover {
+	transform: scale(1.3) skew(-5deg,5deg);
+}
+
+/* 分隔标题页 */
+.contact {
+    width: 200px;
+    height: 100px;
+    margin: 30px auto;
+}
+.contact_title {
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.contact_title span{
+    display: inline-block;
+    width: 50px;
+    height: 3px;
+    line-height: 3px;
+    border-top: 2px solid red;
+    margin-left: 3px;
+}
+.contact_title  a {
+    display: inline-block;
+    font-size: 40px;
+    color: red;
+    list-style: none;
+    text-decoration: none;
+    margin-left: 5px;
+}
+.contact_content{
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    margin: 15px auto;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+.contentNode {
+  height: 500px;
+}
+
+/* 左侧寄语部分 */
+.leftNote {
+	/*display: inline-block;*/
+	float: left;
+	width: 500px;
+	height: 500px;
+}
+.leftNode_title {
+	font-size: 20px;
+	font-family: "Microsoft YaHei UI";
+	display: inline-block;
+	width: 100px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	margin-left: 200px;
+}
+#leftNote_content  p{
+	margin: 5px 0 10px 75px;
+	width: 360px;
+	height: 25px;
+	line-height: 25px;
+  font-size: 16px;
+	border-bottom: 2px dotted dimgray;
+	font-family: "Microsoft YaHei UI";
+}
+
+/* 右侧输入框部分 */
+.rightInput {
+	float: right;
+	width: 700px;
+	height: 500px;
+}
+.rightInput input {
+	outline-style: none;
+	width: 600px;
+	height: 50px;
+	line-height: 50px;
+	margin-top: 20px;
+	margin-left: 20px;
+	border: 1px solid gray;
+	padding-left: 20px;
+	font-size: 16px;
+	font-family: "微软雅黑"
+}
+
+.rightInput textarea {
+	width: 580px;
+	height: 60px;
+	margin-top: 20px;
+	margin-left: 20px;
+	border: 1px solid gray;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	list-style: none;
+	padding:20px;
+	outline-style: none;
+}
+.rightInput textarea:hover{
+	border: 1px solid rgb(39, 39, 39);
+}
+.rightInput input:hover{
+	border: 1px solid rgb(39, 39, 39);
+}
+.rightInput button{
+	outline-style: none;
+	width: 100px;
+	height: 50px;
+	line-height: 50px;
+	margin-left: 280px;
+	text-align: center;
+	padding-left: 6px;
+	cursor: pointer;
+	background-color: #eacd76;
+}
+
+/* 底部左侧寄语部分 */
+
+
+
+

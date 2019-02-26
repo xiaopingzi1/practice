@@ -1,0 +1,485 @@
+/* 旋转木马 */
+.rotateBan {
+  position: relative;
+  background-image: url("../images/旋转木马/slidepic3.jpg");
+  background-size: cover;
+  box-shadow: 0 0 5px #404040;
+  margin-bottom: 30px;
+}
+
+.cover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.slide {
+  height: 500px;
+  position: relative;
+}
+
+.slide li {
+  position: absolute;
+  left: 200px;
+  top: 0;
+  transition: all .5s;
+}
+
+.slide li img {
+  width: 100%;
+  box-shadow: 0 0 5px gold;
+}
+
+.arrow {
+  opacity: 0;
+  position: relative;
+  z-index: 99;
+  top: 50%;
+}
+
+.prev, .next {
+  width: 76px;
+  height: 112px;
+  position: absolute;
+  top: 50%;
+  margin-top: -56px;
+  background: url(../images/旋转木马/prev.png) no-repeat;
+  z-index: 99;
+}
+
+.next {
+  right: 0;
+  background-image: url(../images/旋转木马/next.png);
+}
+
+.slide .slide1 {
+  width: 300px;
+  top: 20px;
+  left: 50px;
+  opacity: 0.2;
+  z-index: 2;
+}
+
+.slide .slide2 {
+  width: 500px;
+  top: 70px;
+  left: 0;
+  opacity: 0.8;
+  z-index: 3;
+}
+
+.slide .slide3 {
+  width: 570px;
+  top: 100px;
+  left: 300px;
+  opacity: 1;
+  z-index: 4;
+}
+
+.slide .slide4 {
+  width: 500px;
+  top: 70px;
+  left: 700px;
+  opacity: 0.8;
+  z-index: 3;
+}
+
+.slide .slide5 {
+  width: 300px;
+  top: 20px;
+  left: 800px;
+  opacity: .2;
+  z-index: 2;
+}
+
+/*过渡条*/
+.split-line {
+  width: 100%;
+  height: 50px;
+  /*background-color: #000;*/
+  margin: 10px 0;
+  overflow: hidden;
+  border-radius: 30px;
+}
+
+.split-line .line {
+  margin-top: 24px;
+  height: 1px;
+  width: 0;
+  box-shadow: 0 0 15px yellowgreen;
+  background-color: #000;
+
+}
+
+/* 分隔标题页 */
+/*公共样式*/
+.pubTit {
+  width: 200px;
+  height: 100px;
+  margin: 30px auto;
+}
+
+.pubTit .title {
+  width: 200px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.pubTit .title span {
+  display: inline-block;
+  width: 50px;
+  height: 3px;
+  line-height: 3px;
+  border-top: 2px solid red;
+  margin-left: 3px;
+}
+
+.pubTit .title a {
+  display: inline-block;
+  font-size: 40px;
+  color: red;
+  margin-left: 5px;
+}
+
+.pubTit .content {
+  width: 200px;
+  height: 30px;
+  line-height: 30px;
+  margin: 15px auto;
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: 30px;
+}
+
+/*小吃热推*/
+.scroll_div {
+  width: 100%;
+  height: 200px;
+  margin: 0 0;
+  overflow: hidden;
+  white-space: nowrap;
+  background: #ffffff;
+}
+.scroll_div a {
+  display: inline-block;
+  height: 200px;
+  width: 300px;
+  overflow: hidden;
+}
+.scroll_div img {
+  height: 200px;
+  width: 300px;
+  transition: all .5s linear;
+}
+
+#scroll_begin, #scroll_end, #scroll_begin ul, #scroll_end ul,#scroll_begin li, #scroll_end li {
+  display: inline;
+  position: relative;
+}
+
+
+#scroll_div li:hover img {
+  width: 320px;
+  height: 214px;
+  box-shadow: 0 0 5px gold;
+
+}
+
+#scroll_div li:hover div.add {
+  display: block;
+}
+
+#scroll_div li div.add {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  left: 0;
+  bottom: 0;
+  z-index: 10;
+  color: gold;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#tabContent {
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  height: 300px;
+}
+
+#tabContent .main {
+  float: left;
+  display: none;
+}
+
+#tabContent .main.selected {
+  display: block;
+}
+
+#tabContent .main img {
+  height: 300px;
+  border-radius: 50%;
+}
+
+#tabContent .mainOne {
+  margin-right: 50px;
+}
+#tabContent .mainOne img {
+  margin-left: 10px;
+  width: 200px;
+}
+#tabContent .mainTwo {
+  width: 940px;
+  height: 300px;
+}
+
+#tabContent .mainTwo h3 {
+  height: 34px;
+  line-height: 34px;
+  font-size: 20px;
+  text-align: center;
+  margin: 15px 0 30px 0;
+}
+#tabContent .mainTwo p {
+  text-indent: 2em;
+  padding: 0 10px;
+  font-size: 14px;
+  line-height: 28px;
+}
+  /*八大菜系*/
+.cuisine1 .title span {
+  border-top: 2px solid orange;
+}
+.cuisine1 .title a {
+  color: orange;
+}
+.cuisine{
+  position: relative;
+  height: 500px;
+}
+
+/*八大菜系顶部*/
+.cuisine .cuisineTop,.cuisineBottom{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.cuisine .cuisineTop li{
+  float: left;
+  width: 298px;
+  height: 202px;
+  overflow: hidden;
+}
+.cuisine .cuisineTop .litem img{
+  width: 300px;
+  height: 200px;
+  transition: all 0.5s linear;
+}
+.cuisine .cuisineTop .litem :hover img{
+  width: 320px;
+  height: 220px;
+}
+.cuisine .cuisineTop .cuisineDetail span{
+  display: block;
+  text-align: center;
+  margin: 15px 0px;
+}
+.cuisine .cuisineTop .cuisineDetail span:nth-child(1){
+  font-size: 30px;
+}
+.cuisine .cuisineTop .cuisineDetail span:nth-child(3){
+  width: 200px;
+  margin: 0 auto;
+}
+/*八大菜系简介背景色*/
+.cuisine .cuisineDetailA{
+  background-color: papayawhip;
+}
+.cuisine .cuisineDetailB{
+  background-color: sandybrown;
+}
+/*八大菜系底部*/
+.cuisine .cuisineBottom .litem img{
+  width: 300px;
+  height: 200px;
+  transition: all .5s linear;
+}
+.cuisine .cuisineBottom .litem:hover img{
+  width: 320px;
+  height: 220px;
+}
+.cuisine .cuisineBottom .cuisineDetail span{
+  display: block;
+  text-align: center;
+  margin: 15px 0px;
+}
+.cuisine .cuisineBottom .cuisineDetail span:nth-child(1){
+  font-size: 30px;
+}
+.cuisine .cuisineBottom .cuisineDetail span:nth-child(3){
+  width: 200px;
+  margin: 0 auto;
+}
+.cuisine .cuisineBottom{
+  display: none;
+}
+.cuisine .cuisineBottom li{
+  float: left;
+  width: 298px;
+  height: 202px;
+  overflow: hidden;
+}
+/*箭头*/
+.cuisine .arrow1{
+  width: 400px;
+  position: absolute;
+  top: 412px;
+  left: 465px;
+}
+.cuisine .arrow1 img {
+  width: 120px;
+}
+.cuisine .arrow1 .arrowToP{
+  /*position: absolute;*/
+  float: left;
+  margin-right: 20px;
+}
+.cuisine .arrow1 .arrowBottom{
+  /*position: absolute;*/
+  /*display: none;*/
+  float: left;
+}
+
+/*八大菜系结束*/
+
+/*出游推荐*/
+.travel .title span {
+  border-top: 2px solid lightgreen;
+}
+
+.travel .title a {
+  color: seagreen;
+}
+/*地图开始*/
+/*地图左边*/
+.mapLeft{
+  position: relative;
+  width: 650px;
+  height: 537px;
+  float: left;
+}
+/*左边定位盒子*/
+.mapLeft .box{
+  position: absolute;
+  background-color: rgba(255,0,0,.7);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+.mapLeft .box1{
+  top: 198px;
+  left: 484px;
+}
+.mapLeft .box2{
+  top: 208px;
+  left:495px;
+}
+.mapLeft .box3{
+  top: 325px;
+  left: 562px;
+}
+.mapLeft .box4{
+  top: 355px;
+  left: 388px;
+}
+/*.mapLeft .hide{*/
+/*display: none;*/
+/*}*/
+
+/*具体内容*/
+.mapLeft .detail{
+  position: absolute;
+  width: 75px;
+  height: 40px;
+  text-align: center;
+  /*line-height: 40px;*/
+  top: -36px;
+  left: -72px;
+  background: url(../images/logo/白底右下角.png) no-repeat;
+  background-size: 80px 40px;
+  padding-top: 7px;
+}
+.mapLeft .detail1{
+  position: absolute;
+  width: 75px;
+  height: 40px;
+  text-align: center;
+  top: 4px;
+  left: -4px;
+  background: url(../images/logo/白底左上角.png) no-repeat;
+  background-size: 80px 40px;
+  padding-top: 7px;
+}
+/*地图右边*/
+.mapRight{
+  float: left;
+  margin-left: 48px;
+  position: relative;
+}
+.mapRight a:hover {
+  color: #000;
+}
+/*旅游景点大盒子*/
+.mapRight .tour{
+  width: 500px;
+  height: 100px;
+  border-bottom: 1px dashed #ccc;
+  position: relative;
+}
+/*景点左边*/
+.mapRight .tour .tourLeft{
+  width: 80px;
+  border-right: 1px solid #ccc;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  float: left;
+  font-size: 16px;
+  margin: 10px 0px;
+}
+/*景点右边*/
+.mapRight .tour .tourRight{
+  float: left;
+  height: 80px;
+  margin: 10px 14px;
+  width: 390px;
+}
+/*hover背景盒子*/
+.mapRight .tour:after{
+  content: "";
+  background-color: #ccc;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  z-index: -1;
+  display: block;
+  transition: all 1s;
+}
+.mapRight .tour:hover:after{
+  width: 100%;
+}
+.mapRight .tour2,.tour3,.tour4{
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+/*地图结束*/
+

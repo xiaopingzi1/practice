@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>页面练习</title>
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/public.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="iconfont/iconfont.css">
+  <link rel="stylesheet" href="iconfont/font_9jql9l1e87c/iconfont.css"/>
+</head>
+
+<body>
+<div class="siteNav clearfix">
+  <div class="w">
+    <!--logo左边-->
+    <ul id="ul1" class="ul1">
+      <li class="menu-item">
+        <a href="index.html">首页</a>
+      </li>
+      <li class="menu-item">
+        <a href="#snake">零食小吃</a>
+        <ul class="sub-menu">
+          <li><a href="#">保定锅贴饺子</a></li>
+          <li><a href="#">山西刀削面</a></li>
+          <li><a href="#">福建鱼丸汤</a></li>
+        </ul>
+      </li>
+      <li class="menu-item">
+        <a href="#eightFood">八大菜系</a>
+        <ul class="sub-menu">
+          <li><a href="#">川菜/鲁菜/粤菜</a></li>
+          <li><a href="#">苏菜/浙菜/闽菜</a></li>
+          <li><a href="#">湘菜/徽菜</a></li>
+        </ul>
+      </li>
+    </ul>
+    <div class="pic"><img src="images/logo/Logo.png" alt=""/></div>
+    <!--logo右边-->
+    <ul id="ul2" class="ul2">
+      <li class="menu-item">
+        <a href="#travel">景点热推</a>
+        <ul class="sub-menu">
+          <li><a href="#">北京/天津</a></li>
+          <li><a href="#">重庆/上海</a></li>
+          <li><a href="#">More</a></li>
+        </ul>
+      </li>
+      <li class="menu-item"><a href="aboutus.html">关于我们</a></li>
+      <li class="menu-item"><a href="contact.html">联系我们</a></li>
+    </ul>
+  </div>
+</div>
+<!-- 旋转木马 -->
+<div class="rotateBan">
+  <!--遮罩层-->
+  <div class="cover"></div>
+  <div class="slide w" id="slide">
+    <ul>
+      <li class="slide1">
+        <a href="#">
+          <img src="images/旋转木马/slidepic1.jpg" alt=""/>
+        </a>
+      </li>
+      <li class="slide2">
+        <a href="#">
+          <img src="images/旋转木马/slidepic2.jpg" alt=""/>
+        </a>
+      </li>
+      <li class="slide3">
+        <a href="#">
+          <img src="images/旋转木马/slidepic3.jpg" alt=""/>
+        </a>
+      </li>
+      <li class="slide4">
+        <a href="#">
+          <img src="images/旋转木马/slidepic4.jpg" alt=""/>
+        </a>
+      </li>
+      <li class="slide5">
+        <a href="#">
+          <img src="images/旋转木马/slidepic5.jpg" alt=""/>
+        </a>
+      </li>
+    </ul>
+    <div class="arrow" id="arrow">
+      <a href="javascript:;" class="prev" id="arrLeft"></a>
+      <a href="javascript:;" class="next" id="arrRight"></a>
+    </div>
+  </div>
+</div>
+<!--过渡条-->
+<div class="split-line splitLine1">
+  <div class="line"></div>
+</div>
+<!-- 分隔标题页 -->
+<!-- 小吃热推 -->
+<div class="snack pubTit" id="snake">
+  <div class="title">
+    <span></span>
+    <a href="javascript:" class="iconfont icon-tanghulu"></a>
+    <span></span>
+  </div>
+  <div class="content">
+    小吃热推
+  </div>
+</div>
+<!--横向滚动-->
+<div id="scroll_div" class="scroll_div">
+  <div id="scroll_begin">
+    <ul>
+      <li>
+        <a href="#"><img src="images/小吃热推/01.jpg"></a>
+        <div class="add">保定锅贴饺子</div>
+      </li>
+      <li>
+        <a href="#"><img src="images/小吃热推/02.jpg"></a>
+        <div class="add">北京奶酪</div>
+      </li>
+      <li>
+        <a href="#"><img src="images/小吃热推/03.jpg"></a>
+        <div class="add">福建鱼丸汤</div>
+      </li>
+      <li><a href="#"><img src="images/小吃热推/04.jpg"></a>
+        <div class="add">李连贵熏肉大饼</div>
+      </li>
+      <li><a href="#"><img src="images/小吃热推/05.jpg"></a>
+        <div class="add">内蒙古奶茶</div>
+      </li>
+      <li><a href="#"><img src="images/小吃热推/06.jpg"></a>
+        <div class="add">山西刀削面</div>
+      </li>
+      <li><a href="#"><img src="images/小吃热推/07.jpg"></a>
+        <div class="add">上海的排骨年糕</div>
+      </li>
+    </ul>
+  </div>
+  <div id="scroll_end"></div>
+</div>
+<!--tab栏切换-->
+<div id="tabContent" class="w">
+  <div class="main selected">
+    <div class="mainOne fl">
+      <a href="javascript:;"><img src="images/小吃热推/01.jpg" alt="" title="保定锅贴饺子"/></a>
+    </div>
+    <div class="mainTwo fl">
+      <h3>保定锅贴饺子</h3>
+      <p>保定锅贴饺子素以皮薄馅大，外脆里嫩，肥而不腻，鲜香适口而名噪华北。</p>
+      <p>
+        保定锅贴饺子分荤素两种。一般荤馅锅贴的馅除肉以外，还要根据季节的变化，分别加上时令鲜菜，如韭菜、南瓜、冬瓜、白菜、韭黄等。制作时，将蔬菜洗净剁碎后，放到已用酱油搅拌好了的肉馅里，加上葱花、姜末、面酱、五香粉、香油等调料搅拌均匀。</p>
+      <p>
+        包饺子时，按50克面包五个的比例，将饺子捏成月牙形，然后放入放有香油的热铛里，洒上点开水，盖上铛盖，当水快耗完时再淋点水，连蒸带煎。水耗完后撒上香油，用慢火烙至底部呈金黄色时即可。
+      </p>
+    </div>
+  </div>
+  <div class="main">
+    <div class="mainOne fl">
+      <a href="javascript:;"><img src="images/小吃热推/02.jpg" alt="" title="北京奶酪"/></a>
+    </div>
+    <div class="mainTwo fl">
+      <h3>北京奶酪</h3>
+      <p>北京奶酪既是一种深受北京人欢迎的夏季清凉饮料，又是一种传统的风味小吃。它是用牛奶、白糖、江米酒为原料精制而成的。由于经过冰镇，奶酪呈半凝固状，色白如玉，又甜又凉又香， 入口即化，清凉透心，是消暑解渴的佳品。</p>
+      <p>
+        相传北京奶酪始于北方游牧民族，清末年间开业的丰盛公小吃店所做奶酪最为脍炙人口。该店的奶酪花样品种多，有杏仁酪、核桃酪、松子酪、果子酪等。
+      </p>
+
+
+      　　
+    </div>
+  </div>
+  <div class="main">
+    <div class="mainOne fl">
+      <a href="javascript:;"><img src="images/小吃热推/03.jpg" alt="" title="福建鱼丸汤"/></a>
+    </div>
+    <div class="mainTwo fl">
+      <h3>福建鱼丸汤</h3>
+      <p>厦门水产丰富，许多鱼类都可以制作鱼丸，但以用鲨鱼和鳗鱼所制的鱼丸最为好吃。制作鱼丸，先将鲜鱼去掉鱼皮、鱼骨，将净鱼肉绞成鱼茸，加食盐、味精，拌匀后加淀粉，和匀后挤成鱼丸，即可煮汤烹菜了。</p>
+      <p>烹制好的鱼丸汤，汤汁鲜美，鱼丸鲜嫩清脆，爽滑可口，肉香味美，营养丰富，既是下饭的汤菜，又可作为充饥的早点和小吃。</p>　　
+    </div>
+  </div>
+  <div class="main">
+    <div class="mainOne fl">
+      <a href="javascript:;"><img src="images/小吃热推/04.jpg" alt="" title="李连贵熏肉大饼"/></a>
+    </div>
+    <div class="mainTwo fl">
+      <h3>李连贵熏肉大饼</h3>
+      <p>熏肉是将肥瘦适度的猪肉和猪下水，加砂仁、干姜、 丁香、 肉蔻、肉桂等九味芳香中药材先行卤煮，熟后再行熏制。</p>
+      <p>大饼系用煮肉的汤油调酥，烙制成外酥里软的大饼，食时，熏肉佐大饼。</p>
+    </div>
+  </div>
+  <div class="main">
+    <div class="mainOne fl">
+      <a href="javascript:;"><img src="images/小吃热推/05.jpg" alt="" title="内蒙古奶茶"/></a>
+    </div>
+    <div class="mainTwo fl">
+      <h3>内蒙古奶茶</h3>
+      <p> 奶茶是我国蒙古、维吾尔、哈萨克、柯尔克孜、塔吉克等民族每天必不可少的饮料，既解渴，又可佐餐。奶茶的熬制很简便：将水烧开，放入适量砖茶熬煮，至色、味都出来时，倒入鲜牛奶(奶粉不宜)，再煮沸后即可饮用。</p>
+      <p>
+        茶、奶各放多少，以个人口味而定，一般5公斤水放0.5公斤牛奶熬成呈浅棕色即可(似麦乳精冲剂)，茶乳交融，味道浓郁香醇。一般少数民族群众都在茶中放盐饮用，喜欢喝甜的也可放糖。蒙古族牧民还在茶中放入炒米及奶制品，既饮又餐。
+      </p>　
+    </div>
+  </div>
+  <div class="main">
+    <div class="mainOne fl">
+      <a href="javascript:;"><img src="images/小吃热推/06.jpg" alt="" title="山西刀削面"/></a>
+    </div>
+    <div class="mainTwo fl">
+      <h3>山西刀削面</h3>
+      <p>
+        山西省独特风味小吃——刀削面，是面食中的佳品。太原酱园巷饭馆的刀削面尤为有名。面条根根粗细均匀，柳叶形，30厘米长短，吃着筋软爽口。
+      </p>
+      <p>
+        刀削面的制法是：面和得要比切面的面略硬，面团揉得要光滑细腻，待面饧后，站在沸水锅前，用钢片制成的瓦形刀，削成三棱形的面条，随削面条随下锅，煮熟捞出。吃时，按各人喜好浇上各种荤素浇头、打卤。
+      </p>　　
+    </div>
+  </div>
+  <div class="main">
+    <div class="mainOne fl">
+      <a href="javascript:;"><img src="images/小吃热推/07.jpg" alt="" title="上海的排骨年糕"/></a>
+    </div>
+    <div class="mainTwo fl">
+      <h3>上海的排骨年糕</h3>
+      <p>
+        上海有两种著名的排骨年糕，一是曙光饮食店的“小常州”排骨年糕，一是“鲜得来”点心店作的排骨年糕。“小常州”排骨年糕选用常州、无锡等地的猪脊骨肉，用酱油腌渍后，再放入用酱油、油、糖、葱姜末、酒等调味混合的油锅中氽，汆至色呈紫红、肉质鲜嫩、味道浓香时取出。</p>
+      <p>
+        与此同时，将松江大米煮熟后，放在石臼里用榔头反复捶打，待捶打至米已无整粒后取出，每500克切20根，每根里裹一小块已经氽过的排骨，再入酱汁油锅中煮氽，吃时，洒上五香粉，则既有排骨肉的浓香，又有年糕的软糯酥脆，十分可口。</p>
+      <p>
+        “鲜得来”的排骨年糕是将面粉、菱粉、五香粉、鸡蛋放在一起搅成糊，浸裹在排骨表面，放入油中氽熟。这种排骨色泽金黄，表面酥脆，肉质鲜嫩。与此同时，将松江大米放在红酱油、排骨油和水混合的汤内煮熟，食时，和排骨一起加上甜面酱，浇上辣酱油，入口糯中发香，略有甜辣味，鲜嫩适口。
+      </p>　
+    </div>
+  </div>
+</div>
+
+<!--过渡条-->
+<div class="split-line splitLine2">
+  <div class="line"></div>
+</div>
+<!-- 八大菜系 -->
+<div class="cuisine1 pubTit" id="eightFood">
+  <div class="title">
+    <span></span>
+    <a href="javascript:" class="iconfont icon-meishi"></a>
+    <span></span>
+  </div>
+  <div class="content">
+    八大菜系
+  </div>
+</div>
+<div class="cuisine w">
+  <!--八大菜系顶部-->
+  <div class="cuisineTop">
+    <ul>
+      <li class="litem"><a href="菜品素材/index.html"><img src="images/八大菜系/川菜.jpg" alt=""/></a></li>
+      <li class="item cuisineDetailA">
+        <div class="cuisineDetail"><span>川菜</span><span>----</span><span>川菜是一种我国人民群众喜闻乐见的美食菜系。川菜的历史源远流长。</span></div>
+      </li>
+      <li class="litem"><a href="菜品素材/index.html"><img src="images/八大菜系/苏菜.jpg" alt=""/></a></li>
+      <li class="item cuisineDetailA">
+        <div class="cuisineDetail"><span>苏菜</span><span>----</span><span>江苏菜是由苏州、淮安、南京、镇江四大菜为代表而构成的。</span></div>
+      </li>
+      <li class="item cuisineDetailB">
+        <div class="cuisineDetail"><span>湘菜</span><span>----</span><span>湘菜制作精细，用料上比较广泛，口味多变，品种繁多。</span></div>
+      </li>
+      <li class="litem"><a href="菜品素材/index.html"><img src="images/八大菜系/湘菜.jpg" alt=""/></a></a></li>
+      <li class="item cuisineDetailB">
+        <div class="cuisineDetail"><span>闽菜</span><span>----</span><span>闽菜以烹制山珍海味而著称，在色香味形上有不同的风格特色。</span></div>
+      </li>
+      <li class="litem"><a href="菜品素材/index.html"><img src="images/八大菜系/闽菜.jpg" alt=""/></a></a></li>
+    </ul>
+  </div>
+  <!--八大菜系底部-->
+  <div class="cuisineBottom">
+    <ul>
+      <li class="litem"><a href="菜品素材/index.html"><img src="images/八大菜系/鲁菜.jpg" alt=""/></a></li>
+      <li class="item cuisineDetailA">
+        <div class="cuisineDetail"><span>鲁菜</span><span>----</span><span>鲁菜是历史最悠久、技法最丰富、难度最高、最见功力 [2-3]  的菜系</span>
+        </div>
+      </li>
+      <li class="litem"><a href="菜品素材/index.html"><img src="images/八大菜系/粤菜.jpg" alt=""/></a></li>
+      <li class="item cuisineDetailA">
+        <div class="cuisineDetail"><span>粤菜</span><span>----</span><span>粤菜由广州菜（也称广府菜）、潮州菜（也称潮汕菜）、东江菜（也称客家菜）三种地方风味组成，三种风味各具特色。</span>
+        </div>
+      </li>
+      <li class="item cuisineDetailB">
+        <div class="cuisineDetail"><span>徽菜</span><span>----</span><span>徽菜是古徽州的地方特色，其独特的地理人文环境赋予徽菜独有的味道</span></div>
+      </li>
+      <li class="litem"><a href="菜品素材/index.html"><img src="images/八大菜系/徽菜.jpg" alt=""/></a></a></li>
+      <li class="item cuisineDetailB">
+        <div class="cuisineDetail">
+          <span>浙菜</span><span>----</span><span>浙菜是中国汉族八大菜系之一，其地山清水秀，物产丰富佳肴美，故谚曰:"上有天堂，下有苏杭"。</span></div>
+      </li>
+      <li class="litem"><a href="菜品素材/index.html"><img src="images/八大菜系/浙菜.jpg" alt=""/></a></a></li>
+    </ul>
+  </div>
+  <!--箭头切换-->
+  <div class="arrow1">
+    <div class="arrowToP"><img src="images/logo/1.png" alt=""/></div>
+    <div class="arrowBottom"><img src="images/logo/2.png" alt=""/></div>
+  </div>
+</div>
+<!--过渡条-->
+<div class="split-line splitLine3">
+  <div class="line"></div>
+</div>
+<!-- 出游推荐 -->
+<div class="travel pubTit" id="travel">
+  <div class="title">
+    <span></span>
+    <a href="javascript:" class="iconfont icon-lvyou"></a>
+    <span></span>
+  </div>
+  <div class="content">出游推荐</div>
+</div>
+<div class="map w clearfix">
+  <!--地图左边-->
+  <div class="mapLeft">
+    <img src="images/地图/map.png" alt=""/>
+    <div class="box1 box">
+      <div class="detail"><i class="iconfont icon-ziyuan2"></i>北京</div>
+    </div>
+    <div class="box2 box">
+      <div class="detail1"><i class="iconfont icon-tianjinshi"></i>天津</div>
+    </div>
+    <div class="box3 box">
+      <div class="detail"><i class="iconfont icon-ziyuan1">上海</i></div>
+    </div>
+    <div class="box4 box">
+      <div class="detail"><i class="iconfont icon-zhongqingshi"></i>重庆</div>
+    </div>
+    <!--<div class="line hide"></div>-->
+    <!--<div class="detail hide"></div>-->
+  </div>
+  <!--地图右边-->
+  <div class="mapRight">
+    <div class="tour1 tour-item">
+      <div class="tour">
+        <a href="#">
+          <div class="tourLeft">圆明园</div>
+          <div class="tourRight">圆明园，曾以其宏大的地域规模、杰出的营造技艺、精美的建筑景群、丰富的文化收藏和博大精深的民族
+            文化内涵而享誉于世，被誉为“一切造园艺术的典范”和“万园之园”。
+          </div>
+        </a>
+      </div>
+      <div class="tour">
+        <a href="#">
+          <div class="tourLeft">故宫</div>
+          <div class="tourRight">故宫位于北京市中心，也称“紫禁城”。这里曾居住过24个皇帝，是明清两代（公元1368～1911年）
+            的皇宫，现辟为“故宫博物院”。故宫的整个建筑金碧辉煌，庄严绚丽，被誉为世界五大宫之一
+          </div>
+        </a>
+      </div>
+      <div class="tour">
+        <a href="#">
+          <div class="tourLeft">八达岭</div>
+          <div class="tourRight"> 八达岭长城史称天下九塞之一，是万里长城的精华。八达岭长城是万里长
+            城向游人开得最早的地段，八达岭景区以八达岭长城为主，兴建了八达岭饭店、全周影院和由江泽民主席亲笔题名的中国长城
+            博物馆等功能齐全的现代化旅游服务设施。
+          </div>
+        </a>
+      </div>
+      <div class="tour">
+        <a href="#">
+          <div class="tourLeft">香山公园</div>
+          <div class="tourRight">香山公园位于北京西北郊小西山山脉东麓，距城20公里，占地160公顷，是一座著名的具有皇家园林特
+            色的大型山林公园。1956年开辟为人民公园，经过近半个世纪的建设，现已成为中外闻名的北京十大公园之一。
+          </div>
+        </a>
+      </div>
+      <div class="tour">
+        <a href="#">
+          <div class="tourLeft">南锣鼓巷</div>
+          <div class="tourRight">南锣鼓巷，全长786米，宽8米。此巷是元大都时的南北通道，为北京胡同的保护区。清乾隆十年京城全图，“锣锅”讹为“锣鼓”。以鼓楼东大街为界，其北的长巷称北锣鼓巷，
+            其南称南锣鼓巷。
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="tour2 tour-item">
+      <div class="tour">
+        <a href="#">
+          <div class="tourLeft">北宁公园</div>
+          <div class="tourRight">北宁公园又名宁园，位于天津市河北区东北部，正门面对北站立交桥，东门面对中山北路，地处天津北站
+            以北。该园始建于清光绪年间，原为袁世凯的种植园。园内设闸引水，使湖水与园外的金钟河、月牙河相通，亭台错落，
+            具有典型的中国古典园林特色。
+          </div>
+        </a>
+      </div>
+      <div class="tour">
+        <a href="#">
+          <div class="tourLeft">天塔湖</div>
+          <div class="tourRight">天塔是津门十景之一，景名“天塔旋云”。集旅游观光、餐饮娱乐和广播电视发射多功能于一体。为世界
+            第六、亚洲第四高塔。居高临下，俯瞰整个天津城，甚至可清楚分辨过去的主要街道和建筑。第三层的旋转餐厅，
+            每隔45分钟，餐厅便自转一周，人可随厅转，目便随景移，感受妙不可言。
+          </div>
+        </a>
+      </div>
+      <div class="tour">
+        <a href="#">
+          <div class="tourLeft">睦南公园</div>
+          <div class="tourRight">睦南公园位于五大道旅游核心区，占地1.8公顷，是五大道地区仅存的植物专类公园，视觉景观与文化感
+            观相融合，形成两级景观层面。睦南公园是集功能性、景观性、美学性、文化性为一体，布局合理，分区明确，
+            功能齐全的开放型街头公园。
+          </div>
+        </a>
+      </div>
+      <div class="tour">
+        <a href="#">
+          <div class="tourLeft">幸福公园</div>
+          <div class="tourRight">幸福公园位于天津靖江路与幸福道交叉口，公园绿树成荫，环境清幽，并配备有各种健身器材，是市民
+            休闲散步的好去处。花园不大但很热闹，有树荫有凉亭，还有大爷大0广场舞太极拳和京剧。
+          </div>
+        </a>
+      </div>
+      <div class="tour">
+        <a href="#">
+          <div class="tourLeft">普育学校</div>
+          <div class="tourRight">普育学校坐落于津北古镇宜兴埠，选址在原宜兴埠第二小学。1929年，著名教育家温赢士胸怀教育救国之
+            志，为弘扬普育精神在宜兴埠创办了普育女子学堂。学堂以“勤劳、真实”为校训，以先进理念和办学模式施教于学子，
+            闻名遐迩、英才辈出，后男女兼收更名为宜兴埠师范小学，直至解放战争时期因战火而烧毁。
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="tour3 tour-item">
+      <div class="tour">
+        <a href="#">
+          <div class="tourLeft">东方明珠</div>
+          <div class="tourRight">上海东方明珠广播电视塔座落于上海黄浦江畔、浦东陆家嘴嘴尖，以其468米的绝对高度成为亚洲第一、
+            世界第三之高塔。东方明珠塔卓然秀立于陆家嘴地区现代化建筑楼群，与隔江的外滩万国建筑博览群交相辉映，展现了国际大
+            都市的壮观景色。成为上海标志性建筑和旅游热点之一。
+          </div>
+        </a>
+      </div>
+      <div class="tour">
+        <a href="#">
+          <div class="tourLeft">外滩</div>
+          <div class="tourRight">外滩（The Bund），位于上海市中心区的黄浦江畔，它是上海的风景线，是到上海观光的游客必到之地。
+            外滩又名中山东一路，全长约1.5公里。东临黄浦江，西面为哥特式、罗马式、巴洛克式、中西合壁式等52幢风格各异的大楼，
+            被称为“万国建筑博览群”。
+          </div>
+        </a>
+      </div>
+      <div class="tour">
+        <a href="#">
+          <div class="tourLeft">南京路</div>
+          <div class="tourRight">南京路和淮海路是上海最繁华的街区,素有“中华商业第一街”之誉，东起外滩，西至静安寺与延安西路
+            交汇，全长5.5公里，两侧商厦鳞次栉比，云集着约600多家商店。西藏路以东称南京东路（原称花园弄，1865年改名为南京路，
+            以西称南京西路（从前称静安寺路）。
+          </div>
+        </a>
+      </div>
+      <div class="tour">
+        <a href="#">
+          <div class="tourLeft">陆家嘴</div>
+          <div class="tourRight">陆家嘴位于浦东黄浦江畔，与外滩隔江相对，是海内外首屈一指的金融中心。这里汇集了东方明珠、环球
+            金融中心、金茂大厦、上海中心大厦等众多地标性建筑，每到夜晚这些高楼大厦灯火通明，璀璨迷人的夜景令人震撼。
+          </div>
+        </a>
+      </div>
+      <div class="tour">
+        <a href="#">
+          <div class="tourLeft">豫园</div>
+          <div class="tourRight">豫园是著名的江南古典园林，全国重点文物保护单位。豫园始建于明嘉靖年间，有明代四川布政使潘允端
+            所建，至今已有400多年的历史，豫园点春堂曾作为起义军的城北指挥部，现堂内陈列着当年小刀会的武器、自铸的钱币，
+            以及发布的文告等文物
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="tour4 tour-item">
+      <div class="tour">
+        <a href="#">
+          <div class="tourLeft">大足时刻</div>
+          <div class="tourRight">大足石刻，位于重庆市大足县境内。大足石刻始于晚唐，历经五代而盛于两宋，是中国晚期石窟艺术中
+            的忧秀代表。石窟多达76处，共有造像6万余躯，石刻铭文10万余字，总称大足石刻。
+          </div>
+        </a>
+      </div>
+      <div class="tour">
+        <a href="#">
+          <div class="tourLeft">神龙峡</div>
+          <div class="tourRight">神龙峡位于重庆南川区南平镇内，距离重庆主城区约79公里，距离南川城区23公里。景区幅员面积约20
+            平方公里，原始植被极为丰富，目视所及一片翠绿，是离重庆主城最近、最原始的生态峡谷之一。
+          </div>
+        </a>
+      </div>
+      <div class="tour">
+        <a href="#">
+          <div class="tourLeft">长江三峡</div>
+          <div class="tourRight">三峡是翟塘峡、巫峡、西陵峡的总称，位于重庆市、湖北省交界处，西起重庆市奉节县白帝城，东至湖北
+            省宜昌市南津关，全长193公里，是世界上著名的大峡谷，被誉为山水画廊，是国家重点风景名胜区。位于重庆市内的有瞿塘峡
+            和巫峡，西陵峡属湖北省地域。翟塘峡为长江三峡第一峡，又称夔峡。
+          </div>
+        </a>
+      </div>
+      <div class="tour">
+        <a href="#">
+          <div class="tourLeft">巫山小山峡</div>
+          <div class="tourRight">被誉为“中华奇观”、“天下绝景”的巫山小三峡、小小三峡，是“国家级风景名胜区”、“国家首批AAAAA级
+            旅游景区”，1991年就名列“中国旅游胜地四十佳”。
+          </div>
+        </a>
+      </div>
+      <div class="tour">
+        <a href="#">
+          <div class="tourLeft">万盛黑山谷</div>
+          <div class="tourRight">黑山谷景区位于重庆市万盛区黑山镇境内，距万盛经开区20公里，距离重庆主城区110公里。这里山高林
+            密、人迹罕至，保存着地黑山谷球上同纬度为数不多的亚热带和温带完好的自然生态，森林覆盖率达97%，被专家誉为“渝黔
+            生物基因库”，是目前重庆地区最大的、原始生态保护最为完好的自然生态风景区。
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--footer-->
+<div class="footerTop">
+  <div id="footerTop">
+    <div class="footerL">
+      <img src="images/footer/weixin.jpg">
+      <p>微信订购流程<br>
+        <span>
+						关注微信公众号－点击［微信订购］ - ［蛋糕预定］<br>
+						- 选择蛋糕磅数［立即购买］ - 点击［去结算］<br>
+						- 确认订单信息 - 选择［支付方式］<br>
+						- 输入优惠券密码 - 提交订单
+					</span>
+      </p>
+    </div>
+    <div class="footerR">
+      <p class="footerR_l">黑马范围内免费配送<br>
+        <span>
+						[ 订购专线 ] 1234 666 666（服务时间：8:30-22:30）<br>
+						[ 客服邮箱 ] 123456789@qq.com<br>
+						[ 公司地址 ] 北京北京北京
+					</span>
+      </p>
+      <div class="footerR_r">
+        <p>官网动态</p>
+        <img src="images/footer/xinlang.png"><br>
+        <img src="images/footer/small_weiixn.png">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <div id="footer">
+    <p>版权所有 © 2018-1015公司:这是一个地址 京ICP备1234567号</p>
+  </div>
+</div>
+
+<script src="js/vendor/jquery-1.12.4.js"></script>
+<script src="js/index.js"></script>
+</body>
+
+</html>
